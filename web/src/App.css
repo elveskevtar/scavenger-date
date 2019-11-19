@@ -1,0 +1,61 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-content {
+  background-color: #222;
+  height: 100vh;
+  padding: 20px;
+  color: white;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing:    border-box;
+  -ms-box-sizing:     border-box;
+  -o-box-sizing:      border-box;
+  box-sizing:         border-box;
+}
+
+.App-update {
+  font-family: 'Odibee Sans', cursive;
+  font-size: 30px;
+  color: #20C20E;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.App-checkin-button {
+  font-family: 'Odibee Sans', cursive;
+  font-size: 30px;
+  margin-top: 40%;
+}
+
+.App-arrived-button {
+  font-family: 'Odibee Sans', cursive;
+  font-size: 30px;
+}
+
+.App-riddle1 {
+  font-family: 'Odibee Sans', cursive;
+  font-size: 30px;
+  color: turquoise;
+}
+
+.App-riddlebox {
+  font-family: 'Odibee Sans', cursive;
+  font-size: 30px;
+  text-align: center;
+  border: 0;
+  background-color: #444;
+  color: turquoise;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
