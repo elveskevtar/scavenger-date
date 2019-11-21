@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
-import './App.css';
 import Typed from 'react-typed';
 import Map from './Map';
+
+import './App.css';
 
 class App extends Component {
   constructor(props) {
@@ -28,7 +29,7 @@ class App extends Component {
       riddle1answer: 'book',
       riddle2answer: 'ice cream',
       dateProgress: 'idle'
-    }; // default ann arbor lat/long
+    };
   }
 
   updateMap = (position) => {

@@ -26,7 +26,7 @@ class Map extends Component {
   render() {
     return (
       <div className="Map-widget">
-        <LoadScript id='script-loader' googleMapsApiKey='AIzaSyDmb1NUK6locvk6tCTbEeKJpRoVCiXYF74'>
+        <LoadScript id='script-loader' googleMapsApiKey={process.env.REACT_APP_GOOGLE_API_KEY}>
           <GoogleMap id='start-map'
           center={this.props.center}
           zoom={this.props.zoom}
