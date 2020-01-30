@@ -7,7 +7,7 @@ class Map extends Component {
     super(props);
     this.state = {
       response: null,
-      travelMode: 'WALKING'
+      travelMode: 'DRIVING'
     }
   }
 

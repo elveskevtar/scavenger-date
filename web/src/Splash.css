@@ -1,0 +1,37 @@
+/*
+ * Main color pallete:
+ * Yellow: #FCC141; 252 193  65;
+ * Red:    #E94D34; 233  77  52;
+ * Pink:   #EB527E; 235  82 126;
+ * lPink:  #F4ABC8; 244 171 200;
+ * lBlue:  #8FD2E5; 143 210 229;
+ */
+
+/* ============================================================================
+ *                         STYLES FOR RENDERED COMPONENTS
+ */
+
+ .Splash {
+    position: relative;
+    text-align: center;
+    background-color: #141414;
+  }
+  
+  .Splash-top:before {
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%;
+  }
+  
+  .Splash-top {
+    position: relative;
+    height: 100%;
+  }
+  
+  #streak {
+    position: absolute;
+  }
+  
+  /*                         STYLES FOR RENDERED COMPONENTS
+   * ============================================================================
+   */
