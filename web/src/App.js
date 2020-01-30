@@ -34,7 +34,7 @@ class App extends Component {
       watchId: 0,
       comedyRiddleAnswer: 'comedy',
       escapeRoomAnswer: 'sherlock',
-      dateProgress: 'idle',
+      dateProgress: 'countdown',
       countDownDate: new Date("Jan 30, 2020 17:00:00").getTime()
     };
   }
